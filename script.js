@@ -1,38 +1,101 @@
 const questions = [
     {
-        question: "Which is largest animal in the world?",
+        question: "What is JavaScript?",
         answer: [
-            { text: "Shark", correct: false},
-            { text: "Blue Whale", correct: true},
-            { text: "Elephant", correct: false},
-            { text: "Giraffe", correct: false},
+            { text: "A styling language", correct: false},
+            { text: "A programming language", correct: true},
+            { text: "A database", correct: false},
+            { text: "An operating system", correct: false},
         ]
     },
     {
-        question: "Which is the smallest country in the world?",
+        question: "Which keyword is used to declare a variable?",
         answer: [
-            { text: "Vatican City", correct: true},
-            { text: "Bhutan", correct: false},
-            { text: "Nepal", correct: false},
-            { text: "Sri Lanka", correct: false},
+            { text: "var", correct: false},
+            { text: "let", correct: false},
+            { text: "const", correct: false},
+            { text: "All of the above", correct: true},
         ]
     },
     {
-        question: "Which is largest desert in the world?",
+        question: "What will true + false return?",
         answer: [
-            { text: "kalahari", correct: false},
-            { text: "Gobi", correct: false},
-            { text: "Sahara", correct: false},
-            { text: "Antarctica", correct: true},
+            { text: "0", correct: false},
+            { text: "1", correct: true},
+            { text: "true", correct: false},
+            { text: "false", correct: false},
         ]
     },
     {
-        question: "Which is smallest continent in the world?",
+        question: "Which will typeof 'Hello' return?",
         answer: [
-            { text: "Asia", correct: false},
-            { text: "Australia", correct: true},
-            { text: "Arctic", correct: false},
-            { text: "Africa", correct: false},
+            { text: "string", correct: true},
+            { text: "text", correct: false},
+            { text: "object", correct: false},
+            { text: "number", correct: false},
+        ]
+    },
+    {
+        question: "Which function is used to print something in console?",
+        answer: [
+            { text: "print()", correct: false},
+            { text: "log()", correct: false},
+            { text: "console.log()", correct: true},
+            { text: "echo()", correct: false},
+        ]
+    },
+    {
+        question: "Which data type is NOT in JavaScript?",
+        answer: [
+            { text: "Number", correct: false},
+            { text: "Boolean", correct: false},
+            { text: "Float", correct: true},
+            { text: "String", correct: false},
+        ]
+    },
+    {
+        question: "What is the default value of an uninitialized variable?",
+        answer: [
+            { text: "null", correct: false},
+            { text: "undefined", correct: true},
+            { text: "0", correct: false},
+            { text: "empty", correct: false},
+        ]
+    },
+    {
+        question: "Which keyword is used to define a constant?",
+        answer: [
+            { text: "let", correct: false},
+            { text: "var", correct: false},
+            { text: "constant", correct: false},
+            { text: "const", correct: true},
+        ]
+    },
+    {
+        question: "Which method is used to add an element at the end of an array?",
+        answer: [
+            { text: "push()", correct: true},
+            { text: "pop()", correct: false},
+            { text: "shift()", correct: false},
+            { text: "unshift()", correct: false},
+        ]
+    },
+    {
+        question: "What does NaN stand for?",
+        answer: [
+            { text: "Not a Name", correct: false},
+            { text: "Not a Number", correct: true},
+            { text: "New and Null", correct: false},
+            { text: "None", correct: false},
+        ]
+    },
+    {
+        question: "Which loop is guaranteed to run at least once?",
+        answer: [
+            { text: "for", correct: false},
+            { text: "while", correct: false},
+            { text: "do...while", correct: true},
+            { text: "foreach", correct: false},
         ]
     }
 ];
